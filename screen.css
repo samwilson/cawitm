@@ -1,0 +1,66 @@
+/* $Id: screen.css 46 2009-06-11 06:46:34Z samwilson $ */
+
+body {background-color:white; padding:0 0 3em 0; margin:0 0 0 125px; font-size:100%;
+    background-color:#dee5fd; border-left:5px solid #233c9b; min-height:1000px}
+h1 {background-color:#233c9b; color:white; margin:0; padding:0.6em; height:30px;
+    top:0; left:100px}
+h1 a {color:white}
+h2 {background-color:inherit; color:#192666; margin:3px 0; padding:0.4em; border-left:1em solid #233c9b}
+h3 {background-color:inherit; color:#192666; margin:3px 0; padding:0.4em}
+p, ol, ul {margin:0.6em 50px}
+a, a:visited, a:link {text-decoration:none}
+a:hover {text-decoration:underline; color:orange}
+pre {margin:0.6em 60px}
+code {background-color:silver; color:black}
+.centre {text-align:center; margin:auto}
+img {border:0}
+em.sc {font-variant:small-caps; font-style:normal}
+
+#login-details {position:absolute; top:0; right:0; color:white; font-size:0.75em; text-align:right}
+#login-details a {color:inherit}
+
+.message {margin:10px 50px; padding:1em; text-align:center; border:1px solid black}
+.message.good        {background-color: #CFC; border-color:#9F9}
+.message.bad         {background-color: #FCC; border-color:#F99}
+.message.indifferent {background-color: #CCF; border-color:#99F}
+
+
+
+/**
+ * Forms
+ */ 
+form {margin:auto}
+
+form fieldset {margin:5px; width:90%}
+form ol {list-style-type:none}
+form ol label {font-weight:bolder}
+form p.submit {text-align:right}
+form table {width:100%}
+form table th {white-space:nowrap}
+form table td {white-space:normal}
+#search-form textarea {width:100%}
+
+/**
+ * Tables
+ */ 
+table {margin:5px; padding:0; border-collapse:collapse}
+th {vertical-align:bottom; background-color:#dee5fd; color:#192666}
+th, td {border:1px solid #dee5fd; white-space:nowrap; background-color:white}
+caption {text-align:left; background-color:white; border-width:1px;
+        border-style:solid; border-color:white white #dee5fd white}
+
+
+/**
+ * Navigation menu
+ */
+ul#nav {background-color:inherit; color:#192666; margin:0; padding: 80px 0 0 0;
+        position:absolute; top:0; left:0; list-style-type:none; width:125px; overflow:hidden}
+ul#nav li {font-size:1.3em; border-top:5px solid #233c9b; padding:0; margin:18px 0 0 2px}
+ul#nav li ul {padding:0; margin:0; list-style-type:disc; list-style-position:inside;
+        list-style-image:url("images/table_icon.png")}
+ul#nav li ul li {font-size:0.7em; border:0; margin:0}
+ul#nav a {color:#233c9b}
+ul#nav a:hover {color:orange}
+#nav .tables .view a {color:#600}
+#nav .tables .base-table a {color:#060}
+
