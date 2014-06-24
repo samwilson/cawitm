@@ -1,0 +1,349 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "6ad69e5968bc3293cbe34a2f4bf4b445",
+    "packages": [
+        {
+            "name": "pear/auth",
+            "version": "dev-trunk",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hostnet/Auth.git",
+                "reference": "c8830e1223e1067461a7bd6cd0560ea394de54d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hostnet/Auth/zipball/c8830e1223e1067461a7bd6cd0560ea394de54d2",
+                "reference": "c8830e1223e1067461a7bd6cd0560ea394de54d2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=4.3.3"
+            },
+            "replace": {
+                "pear-pear/auth": "== 1.6.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Auth/",
+                    "Auth.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "PHP-3.01"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Wallner",
+                    "email": "mike@php.net"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Adam Ashley",
+                    "email": "aashley@php.net"
+                },
+                {
+                    "name": "Alexander Merz",
+                    "email": "alexmerz@php.net"
+                },
+                {
+                    "name": "CHAILLAN Nicolas",
+                    "email": "nicos@php.net"
+                },
+                {
+                    "name": "Christian Stocker",
+                    "email": "chregu@php.net"
+                },
+                {
+                    "name": "Christian Weiske",
+                    "email": "cweiske@php.net",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Christophe Gesche",
+                    "email": "moosh@php.net"
+                },
+                {
+                    "name": "Daniel Convissor",
+                    "email": "danielc@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Daniel O'Connor",
+                    "email": "clockwerx@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Gwynne Raskind",
+                    "email": "gwynne@php.net"
+                },
+                {
+                    "name": "James E. Flemer",
+                    "email": "jflemer@php.net"
+                },
+                {
+                    "name": "Jan Wagner",
+                    "email": "jw@php.net"
+                },
+                {
+                    "name": "Lorenzo Alberton",
+                    "email": "quipo@php.net"
+                },
+                {
+                    "name": "Lukas Smith",
+                    "email": "lsmith@php.net"
+                },
+                {
+                    "name": "Marko Karppinen",
+                    "email": "markonen@php.net"
+                },
+                {
+                    "name": "Martin Jansen",
+                    "email": "mj@php.net",
+                    "role": "Helper"
+                },
+                {
+                    "name": "Michael Bretterklieber",
+                    "email": "mbretter@php.net"
+                },
+                {
+                    "name": "Mika Tuupola",
+                    "email": "tuupola@php.net"
+                },
+                {
+                    "name": "Robert Janeczek",
+                    "email": "rashid@php.net"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@php.net"
+                },
+                {
+                    "name": "Stig Bakken",
+                    "email": "ssb@php.net"
+                },
+                {
+                    "name": "Tobias Schlitt",
+                    "email": "toby@php.net"
+                },
+                {
+                    "name": "Yavor Shahpasov",
+                    "email": "yavo@php.net"
+                }
+            ],
+            "description": "The PEAR Authentication package",
+            "homepage": "https://github.com/hostnet/Auth",
+            "keywords": [
+                "Authentication",
+                "auth"
+            ],
+            "time": "2013-11-15 10:01:14"
+        },
+        {
+            "name": "pear/html_common",
+            "version": "dev-trunk",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/HTML_Common.git",
+                "reference": "403cbf3aa1c2d41f9f5f629ecb646ef665380e8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/HTML_Common/zipball/403cbf3aa1c2d41f9f5f629ecb646ef665380e8c",
+                "reference": "403cbf3aa1c2d41f9f5f629ecb646ef665380e8c",
+                "shasum": ""
+            },
+            "require": {
+                "pear/pear_exception": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./"
+                ]
+            },
+            "license": [
+                "PHP License"
+            ],
+            "authors": [
+                {
+                    "email": "thesaur@php.net",
+                    "name": "Klaus Guenther",
+                    "role": "Lead"
+                },
+                {
+                    "email": "avb@php.net",
+                    "name": "Alexey Borzov",
+                    "role": "Lead"
+                },
+                {
+                    "email": "bmansion@mamasam.com",
+                    "name": "Bertrand Mansion",
+                    "role": "Lead"
+                },
+                {
+                    "email": "adaniel1@eesus.jnj.com",
+                    "name": "Adam Daniel",
+                    "role": "Lead"
+                }
+            ],
+            "description": "More info available on: http://pear.php.net/package/HTML_Common",
+            "support": {
+                "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTML_Common",
+                "source": "https://github.com/pear/HTML_Common"
+            },
+            "time": "2014-02-21 11:50:33"
+        },
+        {
+            "name": "pear/html_page2",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/HTML_Page2.git",
+                "reference": "b0e1e42af0a1bbef93e12eb01c9314989d352b77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/HTML_Page2/zipball/b0e1e42af0a1bbef93e12eb01c9314989d352b77",
+                "reference": "b0e1e42af0a1bbef93e12eb01c9314989d352b77",
+                "shasum": ""
+            },
+            "require": {
+                "pear/html_common": "*",
+                "pear/pear_exception": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HTML": "./"
+                }
+            },
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "PHP License 3.0"
+            ],
+            "authors": [
+                {
+                    "email": "klaus@capitalfocus.org",
+                    "name": "Klaus Guenther",
+                    "role": "Lead"
+                }
+            ],
+            "description": "More info available on: http://pear.php.net/package/HTML_Page2",
+            "support": {
+                "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTML_Page2",
+                "source": "https://github.com/pear/HTML_Page2"
+            },
+            "time": "2014-02-20 19:26:07"
+        },
+        {
+            "name": "pear/mdb2",
+            "version": "trunk",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/pear/MDB2/archive/trunk.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MDB2": "./"
+                }
+            }
+        },
+        {
+            "name": "pear/pear_exception",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/PEAR_Exception.git",
+                "reference": "d5a3e9597040dcc56a4a2053a605e07214951202"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/d5a3e9597040dcc56a4a2053a605e07214951202",
+                "reference": "d5a3e9597040dcc56a4a2053a605e07214951202",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=4.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "class",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PEAR": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "."
+            ],
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Helgi Thormar",
+                    "email": "dufuz@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Greg Beaver",
+                    "email": "cellog@php.net",
+                    "role": "Helper"
+                }
+            ],
+            "description": "The PEAR Exception base class.",
+            "homepage": "https://github.com/pear/PEAR_Exception",
+            "keywords": [
+                "exception"
+            ],
+            "time": "2014-02-21 17:39:41"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

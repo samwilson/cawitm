@@ -1,0 +1,45 @@
+{
+    "name": "samwilson/cawitm",
+    "description": "Concise and easy-to-use CRUD (Create, Read, Update, and Delete) interface to MySQL databases.",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Wilson",
+            "email": "sam@samwilson.id.au",
+            "homepage": "http://samwilson.id.au",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "pear/html_page2": "*",
+        "pear/auth": "*",
+        "pear/mdb2": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pear/HTML_Page2"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/pear/HTML_Common"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "pear/mdb2",
+                "version": "trunk",
+                "dist": {
+                    "url": "https://github.com/pear/MDB2/archive/trunk.zip",
+                    "type": "zip"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "MDB2": "./"
+                    }
+                }
+            }
+        }
+    ]
+}

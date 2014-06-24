@@ -24,6 +24,7 @@ class CAWITM {
         if (!file_exists(TEMP_DIR)) {
             mkdir(TEMP_DIR, 0700, true);
         }
+        require_once 'vendor/autoload.php';
         require_once 'library_functions.php';
         require_once 'library_classes/database.php';
         require_once 'library_classes/html.php';

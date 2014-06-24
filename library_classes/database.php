@@ -65,6 +65,9 @@ class Database {
                     $view_col_name = $matches[3][$i];
                     $base_col_name = $matches[2][$i];
                     $base_tbl_name = $matches[1][$i];
+                    if (!isset($schema[$base_tbl_name])) {
+                        continue; // Give up on aliased tables. @TODO
+                    }
                     $schema[$name]['columns'][$view_col_name]['references'] = $schema[$base_tbl_name]['columns'][$base_col_name]['references'];
                 }
             }
